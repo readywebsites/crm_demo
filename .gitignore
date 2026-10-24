@@ -27,11 +27,11 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Database
-db.sqlite3
+# db.sqlite3
 
 # Django migrations
-*/migrations/*
-!*/migrations/__init__.py
+# */migrations/*
+# !*/migrations/__init__.py
 
 # Static files
 staticfiles/
