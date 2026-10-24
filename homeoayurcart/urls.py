@@ -83,7 +83,7 @@ if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-# Admin site customization for ShopCRM
-admin.site.site_header = "ShopCRM - Inventory & E-Commerce Management"
-admin.site.site_title = "ShopCRM Management Portal"
-admin.site.index_title = "Shop Inventory & Customer Management Dashboard"
+# Admin site customization for Shankh
+admin.site.site_header = "Shankh - Inventory & Orders CRM"
+admin.site.site_title = "Shankh CRM Portal"
+admin.site.index_title = "Shankh Shop Inventory & Customer Management"

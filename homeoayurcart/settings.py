@@ -263,21 +263,25 @@ CASHFREE_ENABLED = bool(CASHFREE_APP_ID and CASHFREE_API_SECRET)
 
 
 JAZZMIN_SETTINGS = {
-    "site_title": "Inventory and Orders",
-    "site_header": "Inventory and Orders",
-    "site_brand": "Inventory and Orders",
-    "welcome_sign": "Welcome to Inventory and Orders",
-    "copyright": "Inventory and Orders",
+    "site_title": "Shankh CRM",
+    "site_header": "Shankh",
+    "site_brand": "Shankh Store & Inventory",
+    "welcome_sign": "Welcome to Shankh Inventory & CRM Portal",
+    "copyright": "Shankh",
 
     "show_sidebar": True,
     "navigation_expanded": True,
-    "show_ui_builder": True,
+    "show_ui_builder": False,
     "related_modal_active": True,
 
     "order_with_respect_to": [
         "ecommerce",
-        "blog",
+        "ecommerce.product",
+        "ecommerce.order",
+        "ecommerce.category",
+        "ecommerce.coupon",
         "auth",
+        "blog",
     ],
 
     "icons": {
